@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: entalk-webhook
+    env: static
+    staticPublishPath: .
+    buildCommand: ""
